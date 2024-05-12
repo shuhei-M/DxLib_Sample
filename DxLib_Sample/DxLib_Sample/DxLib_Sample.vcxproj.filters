@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{33cd3b6b-5f44-4dd0-a5a7-0ec613637d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\include">
+      <UniqueIdentifier>{d673e935-c289-4389-9ea5-79081c723c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{9ae86ca5-c22b-4369-84ac-5da03ec8946a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\include">
+      <UniqueIdentifier>{2165e6a3-64ab-4ef0-aaee-4482a1d2148c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\src">
+      <UniqueIdentifier>{c4da16d7-8565-44dc-8af5-571c211aaddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\src">
+      <UniqueIdentifier>{e380d701-b95c-423d-bf25-823de8cfe0bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>System\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>Math\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>Math\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
